@@ -60,6 +60,8 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 ## Ještě to chce muziku!
 
 Zkus umístit do kódu přehrání tónu tak, aby označoval začátek a konec hry.
+Taky můžeš vyhodnotit podmínku, kdy oba hráči naklikali stejný počet bodů.
+Kdo vyhrává v tuto chvíli?
 
 ```blocks
     music.play(music.tonePlayable(330, music.beat(BeatFraction.Whole)), music.PlaybackMode.InBackground)
